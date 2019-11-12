@@ -1,0 +1,21 @@
+/* Raw-Elements */
+body {
+ background-color: #f4f5f6;
+}
+
+/* General Classes */
+
+/* Header - Body */
+
+/* Header logo div */
+
+.logo-div {
+  background-color: #f72210;
+  height: 95px;
+}
+
+/* Header-body-nav-bar */
+
+.header-body-nav {
+  width: 100%;
+}
