@@ -19,7 +19,7 @@
   color: #f72210;
 }
 
-/* Header-body-nav-bar */
+/* Header-nav-bar */
 
 .header-body-nav {
   bottom: 26px;
@@ -27,15 +27,7 @@
   border-top: 13px solid #f72210;
 }
 
-.header-body-nav > ul {
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-.header-body-nav > ul > li > a {
-  padding: 0;
-  padding-left: 1.2vw;
-}
+/* Arrow box */
 
 .header-body-nav::after {
   position: absolute;
@@ -49,6 +41,32 @@
   border-top: 13px solid #f72210;
 }
 
+.header-body-nav > ul {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.header-body-nav > ul > li > a {
+  padding: 0;
+  padding-left: 1.2vw;
+}
+
+#first-a-nav {
+  padding: 0;
+}
+
+.last-li{
+  width: 8%; 
+}
+
+.input-nav-bar::placeholder {
+  font-size: 1rem;
+}
+
+/* Medias */
+
+@media (max-width: 1019px){
+
+}
 
 
-/* white nav */

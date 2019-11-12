@@ -29,7 +29,7 @@
     <nav class="navbar pl-1 position-relative w-90 header-body-nav">
       <ul class="nav d-flex">
         <li class="nav-item">
-          <a href="#" class="text-dark text-m-2 nav-link active font-weight-bold">U.S.</a>
+          <a href="#" id="first-a-nav" class="text-dark text-m-2 nav-link active font-weight-bold">U.S.</a>
         </li>
         <li class="nav-item">
           <a href="#" class="text-dark text-m-2 nav-link active font-weight-bold border-left">World</a>
@@ -58,8 +58,13 @@
         <li class="nav-item">
           <a href="#" class="text-dark text-m-2 nav-link active font-weight-bold border-left">Vantage</a>
         </li>
-        <li class="nav-item">
-          <a href="#" class="text-dark text-m-2 nav-link active font-weight-bold">Searchbar</a>
+        <li class="nav-item last-li">
+          <form>
+            <div class="form-group input-group-sm">
+              <input type="text" class="form-control border-right-0 border-left-0 border-top-0 border-bottom-0 input-nav-bar"  aria-describedby="emailHelp" placeholder="Search">
+            </div>
+          </form>
+
         </li>
       </ul>
     </nav>
