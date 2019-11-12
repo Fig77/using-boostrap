@@ -5,6 +5,10 @@ body {
 
 /* General Classes */
 
+.text-m-2 {
+  font-size: 110%;
+}
+
 /* Header - Body */
 
 /* Header logo div */
@@ -12,6 +16,14 @@ body {
 .logo-div {
   background-color: #f72210;
   height: 95px;
+}
+
+.button-header-suscribe {
+  
+}
+
+.text-button {
+  color: #f72210;
 }
 
 /* Header-body-nav-bar */
