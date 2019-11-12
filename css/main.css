@@ -1,7 +1,4 @@
 /* Raw-Elements */
-body {
- background-color: #f4f5f6;
-}
 
 /* General Classes */
 
@@ -15,11 +12,7 @@ body {
 
 .logo-div {
   background-color: #f72210;
-  height: 95px;
-}
-
-.button-header-suscribe {
-  
+  height: 105px;
 }
 
 .text-button {
@@ -29,5 +22,22 @@ body {
 /* Header-body-nav-bar */
 
 .header-body-nav {
-  width: 100%;
+  bottom: 26px;
+  background-color: #fff;
+  border-top: 13px solid #f72210;
+
 }
+
+.header-body-nav::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+
+/* white nav */
