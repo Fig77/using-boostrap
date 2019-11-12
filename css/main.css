@@ -25,7 +25,16 @@
   bottom: 26px;
   background-color: #fff;
   border-top: 13px solid #f72210;
+}
 
+.header-body-nav > ul {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.header-body-nav > ul > li > a {
+  padding: 0;
+  padding-left: 1.2vw;
 }
 
 .header-body-nav::after {
@@ -39,5 +48,7 @@
   border-left: 12px solid #fff;
   border-top: 13px solid #f72210;
 }
+
+
 
 /* white nav */
