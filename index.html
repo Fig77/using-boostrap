@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- font awesome -->
+  <script src="js/jquery.js"></script>
+  <script src="js/all.js"></script>
 
   <title>Hello, world!</title>
 </head>
@@ -23,9 +26,12 @@
           <img src="assets/img/logo.png" class="img-fluid" alt="Responsive image" id="img-logo">
         </a>
       </div>
-      <div class="pb-1">
+      <div class="pb-1 d-flex justify-content-start">
         <a href="#" class="text-white font-weight-bold">SIGN IN</a>
-        <button type="button" class="btn btn-light ml-1 button-header-suscribe pb-0 pt-0 pr-2 pl-2 rounded-0"><span class="text-button font-weight-bold text-m-2">SUSCRIBE ></span></button>
+        <button type="button" class="btn btn-light ml-1 button-header-suscribe pb-0 pt-0 pr-2 pl-2 rounded-0"><span class="text-button font-weight-bold text-m-2 d-inline">SUSCRIBE</span> </button>
+        <div class="ml-2 mt-1">
+          <i class="fas fa-bars text-white-50 d-xl-none d-lg-none text-m-3"></i>
+        </div>
       </div>
     </div>
     <nav class="navbar pl-1 position-relative w-90 header-body-nav d-none d-lg-block">
@@ -60,12 +66,14 @@
         <li class="nav-item">
           <a href="#" class="text-dark text-m-2 nav-link active font-weight-bold border-left">Vantage</a>
         </li>
-        <li class="nav-item last-li">
-          <form>
+        <li class="nav-item last-li d-flex">
+          <form class="">
             <div class="form-group input-group-sm">
               <input type="text" class="form-control border-right-0 border-left-0 border-top-0 border-bottom-0 input-nav-bar" aria-describedby="emailHelp" placeholder="Search">
             </div>
+           
           </form>
+          <i class="fas fa-search mt-2 font-weight-thin text-muted mr-1"></i>
 
         </li>
       </ul>
