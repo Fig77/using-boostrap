@@ -63,6 +63,14 @@
   font-size: 1rem;
 }
 
+/* Main section */
+
+/* left aside */
+
+.left-aside-main {
+  width: 419px;
+}
+
 /* Medias */
 
 @media (max-width: 991px){
