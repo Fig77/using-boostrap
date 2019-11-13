@@ -97,8 +97,8 @@ body {
   width: auto;
 }
 
-#link-author-aside-right:link:hover,
-#link-author-aside-right:visited:hover {
+.link-aside-right:link:hover,
+.link-aside-right:visited:hover {
   text-decoration: none;
   color: #f72210 !important;
 }
