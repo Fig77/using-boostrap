@@ -1,5 +1,9 @@
 /* Raw-Elements */
 
+body {
+ background-color: #f4f5f6;
+}
+
 /* General Classes */
 
 .text-m-2 {
@@ -69,6 +73,12 @@
 
 .left-aside-main {
   width: 419px;
+}
+
+.h6-aside-left > a:link:hover,
+.h6-aside-left > a:visited:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 /* Medias */
