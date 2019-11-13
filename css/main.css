@@ -12,6 +12,10 @@ body {
 
 /* Header - Body */
 
+.header-body {
+  height: 150px;
+}
+
 /* Header logo div */
 
 .logo-div {
