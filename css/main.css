@@ -1,0 +1,93 @@
+/* Raw-Elements */
+
+/* General Classes */
+
+.text-m-2 {
+  font-size: 110%;
+}
+
+/* Header - Body */
+
+/* Header logo div */
+
+.logo-div {
+  background-color: #f72210;
+  height: 105px;
+}
+
+.text-button {
+  color: #f72210;
+}
+
+/* Header-nav-bar */
+
+.header-body-nav {
+  bottom: 26px;
+  background-color: #fff;
+  border-top: 13px solid #f72210;
+}
+
+/* Arrow box */
+
+.header-body-nav::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+
+.header-body-nav > ul {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.header-body-nav > ul > li > a {
+  padding: 0;
+  padding-left: 1.2vw;
+}
+
+#first-a-nav {
+  padding: 0;
+}
+
+.last-li{
+  width: 8%; 
+}
+
+.input-nav-bar::placeholder {
+  font-size: 1rem;
+}
+
+/* Medias */
+
+@media (max-width: 991px){
+  
+  .header-body {
+    height: 50px;
+  }
+  
+  .logo-div {
+   height: 50px;
+  }
+  
+  .text-m-2 {
+    font-size:  80%;
+  }
+  
+  #img-logo {
+    min-width: 150px;
+    max-width: 190px;
+  }
+  
+  .text-m-3 {
+    font-size:  150%;
+  }
+  
+}
+
+
