@@ -81,6 +81,25 @@ body {
   text-decoration-color: #f72210;
 }
 
+/* Right side */
+
+.main-aside-right-div-w {
+  height: 77px;
+  box-sizing: content-box;
+}
+
+.main-aside-right-div-w > img {
+  height: 69px;
+  width: auto;
+}
+
+#link-author-aside-right:link:hover,
+#link-author-aside-right:visited:hover {
+  text-decoration: none;
+  color: #f72210 !important;
+}
+
+
 /* Medias */
 
 @media (max-width: 991px){
