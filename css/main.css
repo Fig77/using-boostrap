@@ -188,3 +188,10 @@ body {
   }
 
 }
+
+@media screen and (max-width: 600px) {
+  .img-aside-left,
+  .img-latest-news-aside {
+    width: 100% !important;
+  }
+}
