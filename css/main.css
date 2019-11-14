@@ -8,6 +8,13 @@ body {
 
 /* text-screen-unit-decimal */
 
+.test {
+  height: 1350px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+
 .text-xl-1-5 {
   font-size: 1.5vw;
 }
