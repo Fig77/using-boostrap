@@ -18,6 +18,10 @@ body {
   width: 65%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
 .span-tag-article {
   background-color: #f4f5f6;
   bottom: 0px;
@@ -129,9 +133,15 @@ body {
   color: #f72210 !important;
 }
 
+.img-latest-news-aside {
+  width: 135px;
+  height: 90px;
+}
+
 .suscribe-more {
   height: 150px;
   background-color: #f4f5f6;
+  width: 264px;
 }
 
 .n-icon {
