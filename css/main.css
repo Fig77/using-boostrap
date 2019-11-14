@@ -134,8 +134,8 @@ body {
 }
 
 .img-latest-news-aside {
-  min-width: 100px;
-  min-height: 63px;
+  min-width: 135px;
+  min-height: 90px;
 }
 
 .suscribe-more {
@@ -157,8 +157,7 @@ body {
 
 /* Medias */
 
-@media (max-width: 991px) {
-
+@media screen and (min-width: 791px) and (max-width: 991px) {
   .header-body {
     height: 50px;
   }
@@ -184,7 +183,7 @@ body {
   
   img-latest-news-aside {
     min-height: 45px;
-    min-width: 80px;
+    min-width: 60px;
   }
 
 }
@@ -193,5 +192,6 @@ body {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
+ 
   }
 }
