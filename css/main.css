@@ -134,8 +134,8 @@ body {
 }
 
 .img-latest-news-aside {
-  width: 135px;
-  height: 90px;
+  min-width: 100px;
+  min-height: 63px;
 }
 
 .suscribe-more {
@@ -178,6 +178,13 @@ body {
 
   .text-m-3 {
     font-size: 163%;
+  }
+  
+  /* Main-section */
+  
+  img-latest-news-aside {
+    min-height: 45px;
+    min-width: 80px;
   }
 
 }
