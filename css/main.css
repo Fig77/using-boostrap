@@ -18,6 +18,13 @@ body {
   width: 65%;
 }
 
+.span-tag-article {
+  background-color: #f4f5f6;
+  bottom: 0px;
+  left: 0;
+  z-index: 350;
+}
+
 /* Header - Body */
 
 .header-body {
