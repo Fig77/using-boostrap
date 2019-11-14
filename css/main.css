@@ -25,6 +25,11 @@ body {
   z-index: 350;
 }
 
+.span-tag-culture-travel {
+  background-color: #c2d4d7;
+
+}
+
 /* Header - Body */
 
 .header-body {
