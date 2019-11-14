@@ -10,6 +10,10 @@ body {
   font-size: 110%;
 }
 
+.w-65 {
+  width: 65%;
+}
+
 /* Header - Body */
 
 .header-body {
@@ -109,6 +113,11 @@ body {
   color: #f72210 !important;
 }
 
+.suscribe-more {
+  height: 150px;
+  background-color: #f4f5f6;
+}
+
 
 /* Medias */
 
@@ -132,7 +141,7 @@ body {
   }
   
   .text-m-3 {
-    font-size:  150%;
+    font-size:  163%;
   }
   
 }
