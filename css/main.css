@@ -164,6 +164,15 @@ body {
 /* Medias */
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
+  
+  /* General */
+  
+  .text-s-1 {
+    font-size: 3vw;
+  }
+  
+  /* Header */
+  
   .header-body {
     height: 50px;
   }
@@ -196,20 +205,25 @@ body {
 
 @media screen and (max-width: 600px) {
   
+  .text-xs-1 {
+    font-size: 5vw;
+  }
+  
+  .text-xs-2 {
+    font-size: 2.5vw;
+  }
+  
+  .suscribe-text {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+  
   .header-body {
     height: 50px;
   }
 
   .logo-div {
     height: 50px;
-  }
-  
-  .text-xs-1 {
-    font-size: 75%;
-  }
-  
-  .text-xs-2 {
-    font-size: 95%;
   }
   
   #img-logo {
@@ -224,7 +238,7 @@ body {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 435px) {
   
   .hide-on-hyper-small {
     display: none !important;
