@@ -8,13 +8,6 @@ body {
 
 /* text-screen-unit-decimal */
 
-.test {
-  height: 1340px;
-  position: sticky !important;
-  top: -600px;
-}
-
-
 .text-xl-1-5 {
   font-size: 1.5vw;
 }
@@ -100,9 +93,7 @@ body {
 }
 
 /* Main section */
-#main-section {
-
-}
+#main-section {}
 
 /* Main-culture-travel */
 
@@ -112,6 +103,14 @@ body {
 
 .span-tag-culture-travel {
   background-color: #c2d4d7;
+}
+
+/* Aside scroll gig */
+
+.aside {
+  height: 1340px;
+  position: sticky !important;
+  top: -600px;
 }
 
 /* left aside */
@@ -238,7 +237,7 @@ body {
   .img-latest-news-aside {
     width: 100% !important;
   }
-  
+
 }
 
 @media screen and (max-width: 435px) {
