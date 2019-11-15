@@ -113,14 +113,6 @@ body {
   background-color: #c2d4d7;
 }
 
-/* Aside scroll gig */
-
-.aside {
-  height: 1360px;
-  position: sticky !important;
-  top: -600px;
-}
-
 /* left aside */
 
 .left-aside-main {
@@ -173,9 +165,7 @@ body {
 
 /* In the magazine section */
 
-.section-magazine {
-  
-}
+.section-magazine {}
 
 .first-row {
   height: 500px;
@@ -194,6 +184,17 @@ body {
 }
 
 /* Medias */
+
+@media screen and (min-width: 602px) {
+  /* Aside scroll gig */
+
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+  
+}
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
 
