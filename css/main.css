@@ -181,11 +181,17 @@ body {
 }
 
 .img-magazine {
-  height: 250px;
+  height: 280px;
+  max-width: 320px;
 }
 
 .img-magazine-1 {
   height: 450px;
+  max-width: 100%;
+}
+
+.img-magazine-d {
+  max-width: 25vw;
 }
 
 /* Medias */
