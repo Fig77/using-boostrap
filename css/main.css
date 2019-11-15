@@ -180,19 +180,7 @@ body {
   display: inline-block !important;
 }
 
-.img-magazine {
-  height: 280px;
-  max-width: 320px;
-}
 
-.img-magazine-1 {
-  height: 450px;
-  max-width: 100%;
-}
-
-.img-magazine-d {
-  max-width: 25vw;
-}
 
 /* Medias */
 
@@ -205,6 +193,19 @@ body {
     top: -600px;
   }
   
+  .img-magazine {
+  height: 280px;
+  max-width: 320px;
+}
+
+.img-magazine-1 {
+  height: 450px;
+  max-width: 100%;
+}
+
+.img-magazine-d {
+  max-width: 25vw;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
