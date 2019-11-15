@@ -8,6 +8,13 @@ body {
 
 /* text-screen-unit-decimal */
 
+.test {
+  height: 1340px;
+  position: sticky !important;
+  top: -600px;
+}
+
+
 .text-xl-1-5 {
   font-size: 1.5vw;
 }
@@ -93,6 +100,9 @@ body {
 }
 
 /* Main section */
+#main-section {
+
+}
 
 /* Main-culture-travel */
 
