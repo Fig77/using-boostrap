@@ -177,8 +177,16 @@ body {
   
 }
 
+.first-row {
+  height: 500px;
+}
+
+.small-tag-magazine {
+  display: inline-block !important;
+}
+
 .img-magazine {
- 
+  height: 250px;
 }
 
 .img-magazine-1 {
