@@ -35,6 +35,14 @@ body {
   z-index: 350;
 }
 
+.bg-whitish {
+  background-color: #ededed !important;
+}
+
+.text-reddish {
+  color: #f72210;
+}
+
 /* Header - Body */
 
 .header-body {
@@ -108,7 +116,7 @@ body {
 /* Aside scroll gig */
 
 .aside {
-  height: 1340px;
+  height: 1360px;
   position: sticky !important;
   top: -600px;
 }
@@ -161,6 +169,20 @@ body {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+}
+
+/* In the magazine section */
+
+.section-magazine {
+  
+}
+
+.img-magazine {
+ 
+}
+
+.img-magazine-1 {
+  height: 450px;
 }
 
 /* Medias */
