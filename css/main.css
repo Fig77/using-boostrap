@@ -6,8 +6,6 @@ body {
 
 /* General Classes */
 
-/* text-screen-unit-decimal */
-
 .text-xl-1-5 {
   font-size: 1.5vw;
 }
@@ -33,11 +31,6 @@ body {
   bottom: 0px;
   left: 0;
   z-index: 350;
-}
-
-.span-tag-culture-travel {
-  background-color: #c2d4d7;
-
 }
 
 /* Header - Body */
@@ -89,10 +82,6 @@ body {
   padding-left: 1.2vw;
 }
 
-#first-a-nav {
-  padding: 0;
-}
-
 .last-li {
   width: 8%;
 }
@@ -107,6 +96,10 @@ body {
 
 .main-culture-travel {
   background: #fafafa;
+}
+
+.span-tag-culture-travel {
+  background-color: #c2d4d7;
 }
 
 /* left aside */
@@ -159,20 +152,18 @@ body {
   margin-right: 10px;
 }
 
-
-
 /* Medias */
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
-  
+
   /* General */
-  
+
   .text-s-1 {
     font-size: 3vw;
   }
-  
+
   /* Header */
-  
+
   .header-body {
     height: 50px;
   }
@@ -193,9 +184,9 @@ body {
   .text-m-3 {
     font-size: 163%;
   }
-  
+
   /* Main-section */
-  
+
   img-latest-news-aside {
     min-height: 45px;
     min-width: 60px;
@@ -204,20 +195,20 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  
+
   .text-xs-1 {
     font-size: 5vw;
   }
-  
+
   .text-xs-2 {
     font-size: 2.5vw;
   }
-  
+
   .suscribe-text {
     margin-right: 2vw;
     margin-left: 2vw;
   }
-  
+
   .header-body {
     height: 50px;
   }
@@ -225,7 +216,7 @@ body {
   .logo-div {
     height: 50px;
   }
-  
+
   #img-logo {
     min-width: 150px;
     max-width: 190px;
@@ -234,14 +225,14 @@ body {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
- 
   }
+  
 }
 
 @media screen and (max-width: 435px) {
-  
+
   .hide-on-hyper-small {
     display: none !important;
   }
-  
+
 }
