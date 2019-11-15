@@ -2,6 +2,7 @@
 
 body {
   background-color: #f4f5f6;
+  overflow-x: hidden;
 }
 
 /* General Classes */
@@ -26,6 +27,10 @@ body {
 
 .w-45 {
   width: 45%;
+}
+
+.w-95 {
+  width: 90%;
 }
 
 .span-tag-article {
