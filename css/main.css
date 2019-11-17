@@ -1,12 +1,58 @@
 /* Raw-Elements */
 
+body {
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+}
+
 /* General Classes */
 
-.text-m-2 {
-  font-size: 110%;
+/* text-screen-unit-decimal */
+
+.text-xl-1-5 {
+  font-size: 1.5vw;
+}
+
+.text-xl-2-0 {
+  font-size: 2vw;
+}
+
+.text-xl-3-6 {
+  font-size: 3.6vw;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-95 {
+  width: 90%;
+}
+
+.span-tag-article {
+  background-color: #f4f5f6;
+  bottom: 0px;
+  left: 0;
+  z-index: 350;
+}
+
+.bg-whitish {
+  background-color: #ededed !important;
+}
+
+.text-reddish {
+  color: #f72210;
 }
 
 /* Header - Body */
+
+.header-body {
+  height: 150px;
+}
 
 /* Header logo div */
 
@@ -51,43 +97,202 @@
   padding-left: 1.2vw;
 }
 
-#first-a-nav {
-  padding: 0;
-}
-
-.last-li{
-  width: 8%; 
+.last-li {
+  width: 8%;
 }
 
 .input-nav-bar::placeholder {
   font-size: 1rem;
 }
 
+/* Main section */
+#main-section {}
+
+/* Main-culture-travel */
+
+.main-culture-travel {
+  background: #fafafa;
+}
+
+.span-tag-culture-travel {
+  background-color: #c2d4d7;
+}
+
+/* left aside */
+
+.left-aside-main {
+  width: 419px;
+}
+
+.h6-aside-left > a:link:hover,
+.h6-aside-left > a:visited:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+/* Right side */
+
+.main-aside-right-div-w {
+  height: 77px;
+  box-sizing: content-box;
+}
+
+.main-aside-right-div-w > img {
+  height: 69px;
+  width: auto;
+}
+
+.link-aside-right:link:hover,
+.link-aside-right:visited:hover {
+  text-decoration: none;
+  color: #f72210 !important;
+}
+
+.img-latest-news-aside {
+  min-width: 90px;
+  min-height: 50px;
+}
+
+.suscribe-more {
+  height: 150px;
+  background-color: #f4f5f6;
+  width: 264px;
+}
+
+.n-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+/* In the magazine section */
+
+.section-magazine {}
+
+.first-row {
+  height: 500px;
+}
+
+.small-tag-magazine {
+  display: inline-block !important;
+}
+
+
+
 /* Medias */
 
-@media (max-width: 991px){
-  
+@media screen and (min-width: 991px) {
+  /* Aside scroll gig */
+
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+
+  .img-magazine {
+    height: 280px;
+    max-width: 320px;
+  }
+
+  .img-magazine-1 {
+    height: 450px;
+    max-width: 100%;
+  }
+
+  .img-magazine-d {
+    max-width: 25vw;
+  }
+
+  .img-magazine-editors {
+    max-height: 230px;
+  }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+  /* General */
+
+  .text-s-1 {
+    font-size: 3vw;
+  }
+
+  /* Header */
+
   .header-body {
     height: 50px;
   }
-  
+
   .logo-div {
-   height: 50px;
+    height: 50px;
   }
-  
+
   .text-m-2 {
-    font-size:  80%;
+    font-size: 80%;
   }
-  
+
   #img-logo {
     min-width: 150px;
     max-width: 190px;
   }
-  
+
   .text-m-3 {
-    font-size:  150%;
+    font-size: 163%;
   }
-  
+
+  /* Main-section */
+
+  img-latest-news-aside {
+    min-height: 45px;
+    min-width: 60px;
+  }
+
 }
 
+@media screen and (max-width: 600px) {
 
+  .text-xs-1 {
+    font-size: 5vw;
+  }
+
+  .text-xs-2 {
+    font-size: 2.5vw;
+  }
+
+  .suscribe-text {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+
+  .header-body {
+    height: 50px;
+  }
+
+  .logo-div {
+    height: 50px;
+  }
+
+  #img-logo {
+    min-width: 150px;
+    max-width: 190px;
+  }
+
+  .img-aside-left,
+  .img-latest-news-aside {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 435px) {
+
+  .hide-on-hyper-small {
+    display: none !important;
+  }
+
+}
