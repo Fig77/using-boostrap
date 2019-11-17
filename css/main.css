@@ -184,7 +184,7 @@ body {
 
 /* Medias */
 
-@media screen and (min-width: 602px) {
+@media screen and (min-width: 991px) {
   /* Aside scroll gig */
 
   .aside {
@@ -192,26 +192,38 @@ body {
     position: sticky !important;
     top: -600px;
   }
-  
+
   .img-magazine {
-  height: 280px;
-  max-width: 320px;
-}
+    height: 280px;
+    max-width: 320px;
+  }
 
-.img-magazine-1 {
-  height: 450px;
-  max-width: 100%;
-}
+  .img-magazine-1 {
+    height: 450px;
+    max-width: 100%;
+  }
 
-.img-magazine-d {
-  max-width: 25vw;
-}
+  .img-magazine-d {
+    max-width: 25vw;
+  }
+
+  .img-magazine-editors {
+    max-height: 230px;
+  }
+
+
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
 
   /* General */
-
+  .aside-left {
+    height: 1360px;
+    position: sticky !important;
+    top: -990px;
+    bottom: -2000px;
+  }
+  
   .text-s-1 {
     font-size: 3vw;
   }
