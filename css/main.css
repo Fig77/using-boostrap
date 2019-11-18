@@ -196,6 +196,40 @@ body {
   height: 90px;
 }
 
+/* Suscribe section */
+
+.right-suscribe {
+  height: 270px;
+}
+
+.div-img-suscr-left {
+ width: 205px;
+ height: 200px;
+}
+
+.img-left-suscr,
+.img-left-suscr-1 {
+  width: 140px;
+  height: 180px;
+}
+
+.img-left-suscr {
+  top: 0;
+  left: 0;
+  z-index: 550;
+}
+
+.img-left-suscr-1 {
+  bottom: 0;
+  right: 0;
+  z-index: 650;
+}
+
+.img-right-suscr {
+  height: 270px;
+  width: 200px;
+}
+
 
 
 /* Medias */
@@ -226,8 +260,6 @@ body {
   .img-magazine-editors {
     max-height: 230px;
   }
-
-
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
