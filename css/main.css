@@ -30,7 +30,7 @@ body {
 }
 
 .w-95 {
-  width: 90%;
+  width: 95%;
 }
 
 .span-tag-article {
@@ -178,6 +178,15 @@ body {
 
 .small-tag-magazine {
   display: inline-block !important;
+}
+
+/* Slide Section */
+
+.span-slide {
+  height: 48px;
+  width: 65px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) center/contain no-repeat;
+  margin-right: 10px;
 }
 
 
