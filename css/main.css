@@ -273,6 +273,14 @@ body {
   .text-s-1 {
     font-size: 3vw;
   }
+  
+  .text-s-2 {
+    font-size: 2vw;
+  }
+  
+  .text-s1-2-5 {
+    font-size: 2.5vw;
+  }
 
   /* Header */
 
