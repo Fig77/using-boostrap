@@ -121,6 +121,10 @@ body {
   width: 419px;
 }
 
+.img-aside-left {
+
+}
+
 .h6-aside-left > a:link:hover,
 .h6-aside-left > a:visited:hover {
   text-decoration: underline;
@@ -270,14 +274,20 @@ body {
 
   /* General */
 
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+
   .text-s-1 {
     font-size: 3vw;
   }
-  
+
   .text-s-2 {
     font-size: 2vw;
   }
-  
+
   .text-s1-2-5 {
     font-size: 2.5vw;
   }
@@ -311,7 +321,7 @@ body {
     min-height: 45px;
     min-width: 60px;
   }
-  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -345,6 +355,7 @@ body {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
+    
   }
 
 }
