@@ -53,7 +53,11 @@
 
 ![Project Screen Shot][product-screenshot]
 <br>
+<br>
+<br>
 ![Project Screen Shot][product-screenshot-2]
+<br>
+<br>
 <br>
 ![Project Screen Shot][product-screenshot-3]
 
@@ -98,4 +102,4 @@ Project Link: [Project repo](https://github.com/Fig77/using-boostrap)
 [issues-url]: https://github.com/Fig77/Gradients-Project/issues
 [product-screenshot]: assets/img/product_ss_1.png
 [product-screenshot-2]: assets/img/product_ss_2.png
-[product-screenshot-3]: assets/img/product_ss_3.png
+[product-screenshot-3]: assets/img/prudct_ss_3.png
