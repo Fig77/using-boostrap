@@ -1,3 +1,18 @@
+/* TODO 
+
+-Header Sticky
+-Search bar onclick
+-Min/Max width on pictures
+-Fix picture size at in magazine section
+-Fix flex-direction when resizing at suscribe section -  right div.
+-Maybe resize fonts?
+-Change fonts
+-Code refactor
+-Stickler fixes.
+-Html fixes.-
+
+*/
+
 /* Raw-Elements */
 
 body {
@@ -63,6 +78,10 @@ body {
   color: #f72210;
 }
 
+.red-nav {
+  transition-duration: 0.2s;
+}
+
 /* Header-nav-bar */
 
 .header-body-nav {
@@ -103,6 +122,21 @@ body {
   font-size: 1rem;
 }
 
+/* Header Fixed Style */
+
+.red-nav-bar-f {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  z-index: 1250;
+  height: 55px;
+  padding-bottom: 10px;
+}
+
+.logo-nav-bar-f {
+  width: 15vw !important;
+}
+
 /* Main section */
 
 /* Main-culture-travel */
@@ -120,6 +154,8 @@ body {
 .left-aside-main {
   width: 419px;
 }
+
+.img-aside-left {}
 
 .h6-aside-left > a:link:hover,
 .h6-aside-left > a:visited:hover {
@@ -270,14 +306,20 @@ body {
 
   /* General */
 
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+
   .text-s-1 {
     font-size: 3vw;
   }
-  
+
   .text-s-2 {
     font-size: 2vw;
   }
-  
+
   .text-s1-2-5 {
     font-size: 2.5vw;
   }
@@ -311,7 +353,7 @@ body {
     min-height: 45px;
     min-width: 60px;
   }
-  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -345,8 +387,6 @@ body {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
+
   }
-
-}
-
 }
