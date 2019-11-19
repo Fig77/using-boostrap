@@ -7,7 +7,7 @@ linters:
     
 files:
   ignore:
-    - 'css/Normalize.css'
+    - 'css/reset.css'
     - 'css/bootstrap.css'
     - 'css/bootstrap-grid.css'
     - 'css/bootstrap-grid.css.map'
