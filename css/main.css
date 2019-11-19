@@ -1,3 +1,5 @@
+/* Note to reviewer: I didn't delete branches because I usually get scold for "not having branches". How I usually work is, create "feature-developer" > create feature-(section)-branch > create feature-(section-small-feature) if necessary, then delete everything but the feature-(section)-branch(es). */
+
 /* Raw-Elements */
 
 body {
