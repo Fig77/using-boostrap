@@ -1,15 +1,13 @@
-/* TODO 
-
--Stickler fixes.
--Html fixes.-
-
-*/
-
 /* Raw-Elements */
 
 body {
   background-color: #f4f5f6;
   overflow-x: hidden;
+}
+
+form .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
 }
 
 /* General Classes */
@@ -36,11 +34,6 @@ body {
 
 .w-95 {
   width: 95%;
-}
-
-form .form-control:focus {
-  border-color: #ced4da;
-  box-shadow: none;
 }
 
 .span-tag-article {
@@ -162,8 +155,6 @@ form .form-control:focus {
   width: 419px;
 }
 
-.img-aside-left {}
-
 .h6-aside-left > a:link:hover,
 .h6-aside-left > a:visited:hover {
   text-decoration: underline;
@@ -180,11 +171,6 @@ form .form-control:focus {
 
 .profile-pic-author {
   min-width: 34px;
-}
-
-.main-aside-right-div-w > img {
-  height: 69px;
-  width: auto;
 }
 
 .link-aside-right:link:hover,
@@ -287,8 +273,6 @@ form .form-control:focus {
 
 @media screen and (min-width: 991px) {
 
-  /* Aside scroll gig */
-
   .aside {
     height: 1360px;
     position: sticky !important;
@@ -348,8 +332,6 @@ form .form-control:focus {
     font-size: 163%;
   }
 
-  /* header */
-
   .img-logo {
     min-width: 150px;
     max-width: 190px !important;
@@ -372,10 +354,11 @@ form .form-control:focus {
     position: sticky !important;
     top: -600px;
   }
-
 }
 
 @media screen and (max-width: 600px) {
+
+  /* General */
 
   .text-xs-1 {
     font-size: 5vw;
@@ -385,10 +368,7 @@ form .form-control:focus {
     font-size: 2.5vw;
   }
 
-  .suscribe-text {
-    margin-right: 2vw;
-    margin-left: 2vw;
-  }
+  /* Header */
 
   .header-body {
     height: 50px;
@@ -407,9 +387,18 @@ form .form-control:focus {
     width: 190px !important;
   }
 
+  /* Main */
+
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
 
+  }
+
+  /* Suscribe */
+
+  .suscribe-text {
+    margin-right: 2vw;
+    margin-left: 2vw;
   }
 }
