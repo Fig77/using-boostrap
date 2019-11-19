@@ -1,3 +1,15 @@
+/* TODO 
+
+-Header Sticky
+-Search bar onclick
+-Min/Max width on pictures
+-Fix picture size at in magazine section
+-Maybe resize fonts?
+-Change fonts
+-Code refactor
+
+*/
+
 /* Raw-Elements */
 
 body {
@@ -121,9 +133,7 @@ body {
   width: 419px;
 }
 
-.img-aside-left {
-
-}
+.img-aside-left {}
 
 .h6-aside-left > a:link:hover,
 .h6-aside-left > a:visited:hover {
@@ -355,7 +365,7 @@ body {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
-    
+
   }
 
 }
