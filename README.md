@@ -53,9 +53,9 @@
 
 ![Project Screen Shot][product-screenshot]
 <br>
-![Project Screen Shot][product-screenshot-1]
-<br>
 ![Project Screen Shot][product-screenshot-2]
+<br>
+![Project Screen Shot][product-screenshot-3]
 
 
 ### Built With
