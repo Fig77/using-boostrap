@@ -4,6 +4,7 @@
 -Search bar onclick
 -Min/Max width on pictures
 -Fix picture size at in magazine section
+-Fix flex-direction when resizing at suscribe section -  right div.
 -Maybe resize fonts?
 -Change fonts
 -Code refactor
@@ -367,7 +368,4 @@ body {
     width: 100% !important;
 
   }
-
-}
-
 }
