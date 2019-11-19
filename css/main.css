@@ -46,6 +46,11 @@ body {
   width: 95%;
 }
 
+form .form-control:focus{
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
 .span-tag-article {
   background-color: #f4f5f6;
   bottom: 0px;
@@ -135,6 +140,16 @@ body {
 
 .logo-nav-bar-f {
   width: 15vw !important;
+}
+
+/* Search Bar On Click */
+
+.input-bar-on-click {
+  background: #fff;
+  width: 95%;
+  position: absolute;
+  z-index: 1250; 
+  transition-duration: 0.4s;
 }
 
 /* Main section */
@@ -306,12 +321,6 @@ body {
 
   /* General */
 
-  .aside {
-    height: 1360px;
-    position: sticky !important;
-    top: -600px;
-  }
-
   .text-s-1 {
     font-size: 3vw;
   }
@@ -337,14 +346,21 @@ body {
   .text-m-2 {
     font-size: 80%;
   }
-
-  #img-logo {
-    min-width: 150px;
-    max-width: 190px;
-  }
-
+  
   .text-m-3 {
     font-size: 163%;
+  }
+
+  /* header */
+
+  .img-logo {
+    min-width: 150px;
+    max-width: 190px !important;
+  }
+
+  .red-nav {
+    position: fixed;
+    z-index: 1250;
   }
 
   /* Main-section */
@@ -352,6 +368,12 @@ body {
   .img-latest-news-aside {
     min-height: 45px;
     min-width: 60px;
+  }
+
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
   }
 
 }
@@ -379,9 +401,13 @@ body {
     height: 50px;
   }
 
-  #img-logo {
-    min-width: 150px;
-    max-width: 190px;
+  .red-nav {
+    position: fixed;
+    z-index: 1250;
+  }
+
+  .img-logo {
+    width: 190px !important;
   }
 
   .img-aside-left,
