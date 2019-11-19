@@ -46,7 +46,7 @@ body {
   width: 95%;
 }
 
-form .form-control:focus{
+form .form-control:focus {
   border-color: #ced4da;
   box-shadow: none;
 }
@@ -148,7 +148,7 @@ form .form-control:focus{
   background: #fff;
   width: 95%;
   position: absolute;
-  z-index: 1250; 
+  z-index: 1250;
   transition-duration: 0.4s;
 }
 
@@ -182,7 +182,12 @@ form .form-control:focus{
 
 .main-aside-right-div-w {
   height: 77px;
+  min-width: 300px;
   box-sizing: content-box;
+}
+
+.profile-pic-author {
+  min-width: 34px;
 }
 
 .main-aside-right-div-w > img {
@@ -346,7 +351,7 @@ form .form-control:focus{
   .text-m-2 {
     font-size: 80%;
   }
-  
+
   .text-m-3 {
     font-size: 163%;
   }
