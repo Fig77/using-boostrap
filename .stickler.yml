@@ -8,7 +8,20 @@ linters:
 files:
   ignore:
     - 'css/Normalize.css'
+    - 'css/bootstrap.css'
+    - 'css/bootstrap-grid.css'
+    - 'css/bootstrap-grid.css.map'
+    - 'css/bootstrap-grid.min.css'
+    - 'css/bootstrap-grid.min.css.map'
+    - 'css/bootstrap-reboot.css'
+    - 'css/bootstrap-reboot.css.map'
+    - 'css/bootstrap-reboot.min.css'
+    - 'css/bootstrap-reboot.min.css.map'
+    - 'css/bootstrap.css.map'
+    - 'css/bootstrap.min.css'
+    - 'css/bootstrap.min.css.map'
     
+
 # PLEASE DO NOT enable auto fixing options
 # if you need extra support from you linter - do it in your local env as described in README for this config
 
