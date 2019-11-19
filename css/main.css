@@ -270,7 +270,6 @@ form .form-control:focus {
   .button-suscribe-section {
     width: 100% !important;
   }
-
 }
 
 @media screen and (min-width: 991px) {
@@ -394,7 +393,6 @@ form .form-control:focus {
   .img-aside-left,
   .img-latest-news-aside {
     width: 100% !important;
-
   }
 
   /* Suscribe */
