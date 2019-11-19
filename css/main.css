@@ -137,6 +137,12 @@ body {
   width: 15vw !important;
 }
 
+/* Search Bar On Click */
+
+.input-bar-on-click {
+  width: 90vw;
+}
+
 /* Main section */
 
 /* Main-culture-travel */
@@ -306,12 +312,6 @@ body {
 
   /* General */
 
-  .aside {
-    height: 1360px;
-    position: sticky !important;
-    top: -600px;
-  }
-
   .text-s-1 {
     font-size: 3vw;
   }
@@ -338,13 +338,22 @@ body {
     font-size: 80%;
   }
 
-  #img-logo {
-    min-width: 150px;
-    max-width: 190px;
-  }
+
 
   .text-m-3 {
     font-size: 163%;
+  }
+
+  /* header */
+
+  .img-logo {
+    min-width: 150px;
+    max-width: 190px !important;
+  }
+  
+  .red-nav {
+    position: fixed;
+     z-index: 1250;
   }
 
   /* Main-section */
@@ -352,6 +361,12 @@ body {
   .img-latest-news-aside {
     min-height: 45px;
     min-width: 60px;
+  }
+
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
   }
 
 }
@@ -378,10 +393,14 @@ body {
   .logo-div {
     height: 50px;
   }
+  
+   .red-nav {
+    position: fixed;
+    z-index: 1250;
+  }
 
-  #img-logo {
-    min-width: 150px;
-    max-width: 190px;
+  .img-logo {
+    width: 190px !important;
   }
 
   .img-aside-left,
