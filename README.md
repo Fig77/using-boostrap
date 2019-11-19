@@ -53,9 +53,9 @@
 
 ![Project Screen Shot][product-screenshot]
 <br>
-![Project Screen Shot][product-screenshot]
+![Project Screen Shot-1][product-screenshot]
 <br>
-![Project Screen Shot][product-screenshot]
+![Project Screen Shot-2][product-screenshot]
 
 
 ### Built With
@@ -96,4 +96,6 @@ Project Link: [Project repo](https://github.com/Fig77/using-boostrap)
 [contributors-url]: https://github.com/Fig77/Gradients-Project/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/issues-0-%2300ff00
 [issues-url]: https://github.com/Fig77/Gradients-Project/issues
-[product-screenshot]: assets/img/product_ss.png
+[product-screenshot]: assets/img/product_ss_1.png
+[product-screenshot-2]: assets/img/product_ss_2.png
+[product-screenshot-3]: assets/img/product_ss_3.png
