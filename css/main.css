@@ -8,6 +8,8 @@
 -Maybe resize fonts?
 -Change fonts
 -Code refactor
+-Stickler fixes.
+-Html fixes.-
 
 */
 
@@ -76,6 +78,10 @@ body {
   color: #f72210;
 }
 
+.red-nav {
+  transition-duration: 0.2s;
+}
+
 /* Header-nav-bar */
 
 .header-body-nav {
@@ -114,6 +120,21 @@ body {
 
 .input-nav-bar::placeholder {
   font-size: 1rem;
+}
+
+/* Header Fixed Style */
+
+.red-nav-bar-f {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  z-index: 1250;
+  height: 55px;
+  padding-bottom: 10px;
+}
+
+.logo-nav-bar-f {
+  width: 15vw !important;
 }
 
 /* Main section */
