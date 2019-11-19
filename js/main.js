@@ -53,11 +53,14 @@ function changeNav() {
 
 function enlargeSearchbar() {
   var search = document.getElementById("search-bar");
+  var icon = document.getElementById("icon-search");
   if (!formChanged) {
     search.classList.add("input-bar-on-click")
+    icon.classList.add("d-none");
     formChanged = true;
   } else {
     search.classList.remove("input-bar-on-click")
+    icon.classList.remove("d-none");
     formChanged = false;
   }
 

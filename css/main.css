@@ -46,6 +46,11 @@ body {
   width: 95%;
 }
 
+form .form-control:focus{
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
 .span-tag-article {
   background-color: #f4f5f6;
   bottom: 0px;
@@ -140,7 +145,11 @@ body {
 /* Search Bar On Click */
 
 .input-bar-on-click {
-  width: 90vw;
+  background: #fff;
+  width: 1150px;
+  position: absolute;
+  z-index: 1250; 
+  transition-duration: 0.4s;
 }
 
 /* Main section */
@@ -337,9 +346,7 @@ body {
   .text-m-2 {
     font-size: 80%;
   }
-
-
-
+  
   .text-m-3 {
     font-size: 163%;
   }
@@ -350,10 +357,10 @@ body {
     min-width: 150px;
     max-width: 190px !important;
   }
-  
+
   .red-nav {
     position: fixed;
-     z-index: 1250;
+    z-index: 1250;
   }
 
   /* Main-section */
@@ -393,8 +400,8 @@ body {
   .logo-div {
     height: 50px;
   }
-  
-   .red-nav {
+
+  .red-nav {
     position: fixed;
     z-index: 1250;
   }
