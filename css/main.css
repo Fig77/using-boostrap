@@ -40,7 +40,7 @@ form .form-control:focus {
 
 .span-tag-article {
   background-color: #f4f5f6;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   z-index: 350;
 }
@@ -266,14 +266,12 @@ form .form-control:focus {
 /* Medias */
 
 @media screen and (max-width: 1210px) {
-
   .button-suscribe-section {
     width: 100% !important;
   }
 }
 
 @media screen and (min-width: 991px) {
-
   .aside {
     height: 1360px;
     position: sticky !important;
@@ -300,7 +298,6 @@ form .form-control:focus {
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
-
   /* General */
 
   .text-s-1 {
@@ -358,7 +355,6 @@ form .form-control:focus {
 }
 
 @media screen and (max-width: 600px) {
-
   /* General */
 
   .text-xs-1 {
