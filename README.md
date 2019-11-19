@@ -42,7 +42,7 @@
 ### Assignment:
  
 
-   1. Go to ![this website](https://www.newsweek.com/) and have a look around.
+   1. Go to <a href="https://www.newsweek.com/">this website</a> and have a look around.
    2. Create a blank HTML document.
    3. Add Bootstrap to your project by following the instructions at GetBootstrap.com. Use the examples on that page as templates for how to organize your page.
    4. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them  	 the proper size and alignment. 
