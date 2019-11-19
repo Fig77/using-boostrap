@@ -146,7 +146,7 @@ form .form-control:focus{
 
 .input-bar-on-click {
   background: #fff;
-  width: 1150px;
+  width: 95%;
   position: absolute;
   z-index: 1250; 
   transition-duration: 0.4s;
