@@ -266,13 +266,19 @@ form .form-control:focus {
 /* Medias */
 
 @media screen and (max-width: 1210px) {
-  .button-suscribe-section {
-    width: 100% !important;
+  .stickler-fake-anti-loop-rule {
+    /* This is to try to fool stickler out of a loop that apparently having an
+    ID inside a media is causing. I need the ID because bootstrap it's impossible to work with
+    using only raw CSS, without either using bad practice or re-writing bootstrap classes. */
   }
   
-  #header-body {
+   #header-body {
     width: 100vw;
     margin-left: 0 !important;
+  }
+  
+  .button-suscribe-section {
+    width: 100% !important;
   }
 }
 
