@@ -266,11 +266,9 @@ form .form-control:focus {
 /* Medias */
 
 @media screen and (max-width: 1210px) {
-  
   .button-suscribe-section {
     width: 100% !important;
   }
-  
   #header-body {
     width: 100vw;
     margin-left: 0 !important;
