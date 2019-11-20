@@ -34,6 +34,10 @@ form .form-control:focus {
   width: 45%;
 }
 
+.w-30 {
+  width: 30%;
+}
+
 .w-95 {
   width: 95%;
 }
@@ -249,8 +253,8 @@ form .form-control:focus {
 }
 
 .img-right-suscr {
-  height: 270px;
-  width: 200px;
+  min-height: 200px;
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
 }
 
 /* Footer */
