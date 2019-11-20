@@ -1,0 +1,411 @@
+/* Note to reviewer: I didn't delete branches because I usually get scold for "not having branches". How I usually work is, create "feature-developer" > create feature-(section)-branch > create feature-(section-small-feature) if necessary, then delete everything but the feature-(section)-branch(es). */
+
+/* Raw-Elements */
+
+body {
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+}
+
+form .form-control:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+/* General Classes */
+
+.text-xl-1-5 {
+  font-size: 1.5vw;
+}
+
+.text-xl-2-0 {
+  font-size: 2vw;
+}
+
+.text-xl-3-6 {
+  font-size: 3.6vw;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.span-tag-article {
+  background-color: #f4f5f6;
+  bottom: 0;
+  left: 0;
+  z-index: 350;
+}
+
+.bg-whitish {
+  background-color: #ededed !important;
+}
+
+.text-reddish {
+  color: #f72210;
+}
+
+/* Header - Body */
+
+.header-body {
+  height: 150px;
+}
+
+/* Header logo div */
+
+.logo-div {
+  background-color: #f72210;
+  height: 105px;
+}
+
+.red-nav {
+  transition-duration: 0.2s;
+}
+
+/* Header-nav-bar */
+
+.header-body-nav {
+  bottom: 26px;
+  background-color: #fff;
+  border-top: 13px solid #f72210;
+}
+
+/* Arrow box */
+
+.header-body-nav::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+
+.header-body-nav > ul {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.header-body-nav > ul > li > a {
+  padding: 0;
+  padding-left: 1.2vw;
+}
+
+.last-li {
+  width: 8%;
+}
+
+.input-nav-bar::placeholder {
+  font-size: 1rem;
+}
+
+/* Header Fixed Style */
+
+.red-nav-bar-f {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  z-index: 1250;
+  height: 55px;
+  padding-bottom: 10px;
+}
+
+.logo-nav-bar-f {
+  width: 15vw !important;
+}
+
+/* Search Bar On Click */
+
+.input-bar-on-click {
+  background: #fff;
+  width: 95%;
+  position: absolute;
+  z-index: 1250;
+  transition-duration: 0.4s;
+}
+
+/* Main section */
+
+/* Main-culture-travel */
+
+.main-culture-travel {
+  background: #fafafa;
+}
+
+.span-tag-culture-travel {
+  background-color: #c2d4d7;
+}
+
+/* left aside */
+
+.left-aside-main {
+  width: 419px;
+}
+
+.h6-aside-left > a:link:hover,
+.h6-aside-left > a:visited:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+/* Right aside */
+
+.main-aside-right-div-w {
+  height: 77px;
+  min-width: 300px;
+  box-sizing: content-box;
+}
+
+.profile-pic-author {
+  min-width: 34px;
+}
+
+.link-aside-right:link:hover,
+.link-aside-right:visited:hover {
+  text-decoration: none;
+  color: #f72210 !important;
+}
+
+.img-latest-news-aside {
+  min-width: 90px;
+  min-height: 50px;
+}
+
+.suscribe-more {
+  height: 150px;
+  background-color: #f4f5f6;
+  width: 264px;
+}
+
+.n-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+/* In the magazine section */
+
+.first-row {
+  height: 500px;
+}
+
+.small-tag-magazine {
+  display: inline-block !important;
+}
+
+/* Slide Section */
+
+.span-slide {
+  height: 48px;
+  width: 65px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) center/contain no-repeat;
+  margin-right: 10px;
+}
+
+/* Misc-section */
+
+.img-misc-little {
+  width: 135px;
+  height: 90px;
+}
+
+/* Suscribe section */
+
+.div-img-suscr-left {
+  width: 205px;
+  height: 200px;
+}
+
+.img-left-suscr,
+.img-left-suscr-1 {
+  width: 140px;
+  height: 180px;
+}
+
+.img-left-suscr {
+  top: 0;
+  left: 0;
+  z-index: 550;
+}
+
+.img-left-suscr-1 {
+  bottom: 0;
+  right: 0;
+  z-index: 650;
+}
+
+.img-right-suscr {
+  min-height: 200px;
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+}
+
+/* Footer */
+
+.footer-first-div {
+  height: 90px;
+}
+
+/* Medias */
+
+@media screen and (max-width: 1270px) {
+  .stickler-fake-anti-loop-rule {
+    /* This is to try to fool stickler out of a loop that apparently having an
+    ID inside a media is causing. I need the ID because bootstrap it's impossible to work with
+    using only raw CSS, without either using bad practice or re-writing bootstrap classes. :) */
+  }
+
+  #header-body {
+    width: 100vw;
+    margin-left: 0 !important;
+  }
+
+  .button-suscribe-section {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+
+  .img-magazine {
+    height: 280px;
+    max-width: 320px;
+  }
+
+  .img-magazine-1 {
+    height: 450px;
+    max-width: 100%;
+  }
+
+  .img-magazine-d {
+    max-width: 25vw;
+  }
+
+  .img-magazine-editors {
+    max-height: 230px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  /* General */
+
+  .text-s-1 {
+    font-size: 3vw;
+  }
+
+  .text-s-2 {
+    font-size: 2vw;
+  }
+
+  .text-s1-2-5 {
+    font-size: 2.5vw;
+  }
+
+  /* Header */
+
+  .header-body {
+    height: 50px;
+  }
+
+  .logo-div {
+    height: 50px;
+  }
+
+  .text-m-2 {
+    font-size: 80%;
+  }
+
+  .text-m-3 {
+    font-size: 163%;
+  }
+
+  .img-logo {
+    min-width: 150px;
+    max-width: 190px !important;
+  }
+
+  .red-nav {
+    position: fixed;
+    z-index: 1250;
+  }
+
+  /* Main-section */
+
+  .img-latest-news-aside {
+    min-height: 45px;
+    min-width: 60px;
+  }
+
+  .aside {
+    height: 1360px;
+    position: sticky !important;
+    top: -600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* General */
+
+  .text-xs-1 {
+    font-size: 5vw;
+  }
+
+  .text-xs-2 {
+    font-size: 2.5vw;
+  }
+
+  /* Header */
+
+  .header-body {
+    height: 50px;
+  }
+
+  .logo-div {
+    height: 50px;
+  }
+
+  .red-nav {
+    position: fixed;
+    z-index: 1250;
+  }
+
+  .img-logo {
+    width: 190px !important;
+  }
+
+  /* Main */
+
+  .img-aside-left,
+  .img-latest-news-aside {
+    width: 100% !important;
+  }
+
+  /* Suscribe */
+
+  .suscribe-text {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+}
