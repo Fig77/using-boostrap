@@ -269,6 +269,11 @@ form .form-control:focus {
   .button-suscribe-section {
     width: 100% !important;
   }
+  
+  #header-body {
+    width: 100vw;
+    margin-left: 0 !important;
+  }
 }
 
 @media screen and (min-width: 991px) {
